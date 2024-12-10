@@ -95,7 +95,6 @@ export default function ReactShare() {
 					className="twitter"
 					shareButtonType={SHARE_BUTTON_TYPES.TWITTER}
 					additionalProps={{
-						imgBase64: imgBase64,
 						title: twitterContent,
 						hashtags: twitterHashtags.split(","),
 					}}
